@@ -1,6 +1,6 @@
 <div class="col-sm-6">
     <h3>Create a new account</h3>
-    <p id="message"><?php if(isset($_SESSION['message'])) {echo $_SESSION['message'];} ?></p>
+    <p id="error"><?php if(isset($_SESSION['error'])) {echo $_SESSION['error'];} ?></p>
 <form method="POST">
 
     <div class="form-group">
